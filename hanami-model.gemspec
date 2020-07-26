@@ -21,13 +21,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'hanami-utils',    '~> 1.3'
   spec.add_runtime_dependency 'rom',             '~> 5.2.4'
   spec.add_runtime_dependency 'rom-sql',         '~> 3.2.0'
-  spec.add_runtime_dependency 'rom-repository',  '~> 1.4'
   spec.add_runtime_dependency 'dry-types',       '~> 1.4.0'
   spec.add_runtime_dependency 'dry-logic',       '~> 1.0.6'
-  spec.add_runtime_dependency 'concurrent-ruby', '~> 1.0'
-  spec.add_runtime_dependency 'bigdecimal',      '~> 1.4'
+  spec.add_runtime_dependency 'concurrent-ruby', '~> 1.1.0'
+  spec.add_runtime_dependency 'bigdecimal',      '~> 2.0'
 
   spec.add_development_dependency 'bundler', '>= 1.6', '< 3'
-  spec.add_development_dependency 'rake',  '~> 12'
-  spec.add_development_dependency 'rspec', '~> 3.7'
+  spec.add_development_dependency 'rake',  '~> 13'
+  spec.add_development_dependency 'rspec', '~> 3.9'
 end
